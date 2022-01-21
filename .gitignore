@@ -1,3 +1,10 @@
-/reconcile/env
-/reconcile/reconcile/__pycache__
-/reconcile/reconcileapp/__pycache__
+*.pyc
+*.db
+*~
+.*
+*.py.bak
+__pycache__
+
+!.github
+!.gitignore
+!.pre-commit-config.yaml
