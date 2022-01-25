@@ -15,12 +15,12 @@
         <form action="http://localhost:8000/reconcile" method="post" enctype="multipart/form-data">
             <div>
                 <label for="gstr2b-json">Upload GSTR-2B JSON file:</label>
-                <input type="file" name="gstr2b-json" id="gstr2b-json" accept=".json">
+                <input type="file" name="gstr2b-json" id="gstr2b-json" accept=".json" required>
             </div>
             <br>
             <div>
                 <label for="purchase-register-csv">Upload purchase register CSV file:</label>
-                <input type="file" name="purchase-register-csv" id="purchase-register-csv" accept=".csv">
+                <input type="file" name="purchase-register-csv" id="purchase-register-csv" accept=".csv" required>
             </div>
             <br>
             <input type="submit" value="Reconcile">
