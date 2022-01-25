@@ -15,7 +15,7 @@ def index(request):
 @csrf_exempt
 def reconcile(request):
     """
-    API Endpoint: /api/reconcile
+    API Endpoint: /api/reconcile/
 
     Reconciles the entries of GSTR-2B JSON data and purchase register's CSV.
     """

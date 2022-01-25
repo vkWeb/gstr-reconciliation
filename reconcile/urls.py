@@ -17,4 +17,4 @@ Including another URLconf
 from django.urls import path
 from reconcile import views
 
-urlpatterns = [path("", views.index), path("reconcile", views.reconcile)]
+urlpatterns = [path("", views.index), path("/api/reconcile/", views.reconcile)]
