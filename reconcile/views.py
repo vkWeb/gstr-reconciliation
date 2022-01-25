@@ -11,19 +11,19 @@ def index(request):
 
 
 @csrf_exempt
-def process(request):
+def reconcile(request):
     if request.method == "POST":
         gstr2b = request.FILES["gstr2b-json"]
         csvfile = request.FILES["purchase-register-csv"]
         # read() not for big files but we are only dealing with text files so it is fine
         utils.save_file(f"{gstr2b.name}", gstr2b.read())
         utils.save_file(f"{csvfile.name}", csvfile.read())
-        resultant = json_and_csv(gstr2b.name,csvfile.name)
+        resultant = build_dict(gstr2b.name,csvfile.name)
         JsonResponse(resultant)
     return HttpResponse()
 
 
-def json_and_csv(jtitle, ctitle):
+def build_dict(jtitle, ctitle):
     f = open(f"gst/{jtitle}")
     load_f = json.load(f)
     json_dict = {}
@@ -73,11 +73,14 @@ def match(json_dict,csv_dict):
     not_in_csv = {}
     not_in_json = {} 
     matched = {}
+    mismatch = {}
     for key in csv_dict:
         if (json_dict.get(key) is not None) and (csv_dict[key] == json_dict[key]):
             matched[key] = csv_dict[key]
             #del csv_dict[key]
             del json_dict[key]
+        elif(json_dict.get(key) is not None) and (csv_dict.get(key) is not None) and (csv_dict[key] != json_dict[key]):
+            mismatch[key] = csv_dict[key]
         else:
             not_in_json[key] = csv_dict[key]
     del csv_dict
@@ -85,8 +88,12 @@ def match(json_dict,csv_dict):
     del json_dict
     the_ultimate_dict = {}
     the_ultimate_dict["MATCHED"] = matched
+    the_ultimate_dict["MISMATCHED"] = mismatch
     the_ultimate_dict["MISSING_IN_CSV"] = not_in_csv
     the_ultimate_dict["MISSING_IN_JSON"] = not_in_json
-    return the_ultimate_dict
+
     #utils.save_file(f"ultimate.json",json.dumps(the_ultimate_dict))
 
+    return the_ultimate_dict
+
+build_dict('2b.json','purchase.csv')
