@@ -3,1947 +3,340 @@
         "itcsumm": {
             "itcavl": {
                 "nonrevsup": {
-                    "sgst": 117151.03,
+                    "sgst": 206420.03,
                     "b2b": {
-                        "sgst": 117151.03,
-                        "cgst": 117151.03,
+                        "sgst": 206420.03,
+                        "cgst": 206420.03,
                         "cess": 0,
-                        "igst": 5716
+                        "igst": 201840.23
                     },
-                    "cgst": 117151.03,
+                    "cgst": 206420.03,
                     "cess": 0,
-                    "igst": 5716
+                    "igst": 201840.23
                 }
             }
         },
-        "rtnprd": "112021",
+        "rtnprd": "012022",
         "docdata": {
             "b2b": [
                 {
                     "inv": [
                         {
-                            "dt": "27-11-2021",
-                            "val": 42052,
+                            "dt": "07-01-2022",
+                            "val": 101000,
                             "rev": "N",
                             "itcavl": "Y",
                             "diffprcnt": 1,
                             "pos": "22",
                             "typ": "R",
-                            "inum": "AA6729",
+                            "inum": "1702",
                             "rsn": "",
                             "items": [
                                 {
-                                    "sgst": 3207.36,
+                                    "sgst": 2404.76,
+                                    "rt": 5,
+                                    "num": 501,
+                                    "txval": 96190.5,
+                                    "cgst": 2404.76,
+                                    "cess": 0
+                                }
+                            ]
+                        }
+                    ],
+                    "trdnm": "AARYA ENTERPRISES",
+                    "supfildt": "09-02-2022",
+                    "supprd": "012022",
+                    "ctin": "22ATSPA3620P1ZL"
+                },
+                {
+                    "inv": [
+                        {
+                            "dt": "07-01-2022",
+                            "val": 7900,
+                            "rev": "N",
+                            "itcavl": "Y",
+                            "diffprcnt": 1,
+                            "pos": "22",
+                            "typ": "R",
+                            "inum": "AEL/1289/2021-22",
+                            "rsn": "",
+                            "items": [
+                                {
+                                    "sgst": 602.54,
                                     "rt": 18,
                                     "num": 1801,
-                                    "txval": 35637.31,
-                                    "cgst": 3207.36,
-                                    "cess": 0
-                                }
-                            ]
-                        }
-                    ],
-                    "trdnm": "AMAR AGENCIES",
-                    "supfildt": "11-12-2021",
-                    "supprd": "112021",
-                    "ctin": "22AAEFA0060A1ZM"
-                },
-                {
-                    "inv": [
-                        {
-                            "dt": "22-11-2021",
-                            "val": 101050,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "pos": "22",
-                            "typ": "R",
-                            "inum": "CRDT/21-22/346",
-                            "rsn": "",
-                            "items": [
-                                {
-                                    "sgst": 2405.95,
-                                    "rt": 5,
-                                    "num": 1,
-                                    "txval": 96238,
-                                    "cgst": 2405.95,
-                                    "cess": 0
-                                }
-                            ]
-                        }
-                    ],
-                    "trdnm": "Sumeet Enterprises",
-                    "supfildt": "10-12-2021",
-                    "supprd": "112021",
-                    "ctin": "22CTSPP5540H1ZE"
-                },
-                {
-                    "inv": [
-                        {
-                            "dt": "25-10-2021",
-                            "val": 264000,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "pos": "22",
-                            "typ": "R",
-                            "inum": "141",
-                            "rsn": "",
-                            "items": [
-                                {
-                                    "rt": 0,
-                                    "num": 1,
-                                    "txval": 264000,
-                                    "igst": 0
-                                }
-                            ]
-                        }
-                    ],
-                    "trdnm": "M/S  GOVIND TRADERS",
-                    "supfildt": "17-11-2021",
-                    "supprd": "102021",
-                    "ctin": "23ABZPM1948H1Z7"
-                },
-                {
-                    "inv": [
-                        {
-                            "dt": "17-11-2021",
-                            "val": 152500,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "pos": "22",
-                            "typ": "R",
-                            "inum": "AT/DUM/0049",
-                            "rsn": "",
-                            "items": [
-                                {
-                                    "sgst": 8169.64,
-                                    "rt": 12,
-                                    "num": 1,
-                                    "txval": 136160.71,
-                                    "cgst": 8169.64,
+                                    "txval": 6694.92,
+                                    "cgst": 602.54,
                                     "cess": 0
                                 }
                             ]
                         },
                         {
-                            "dt": "24-11-2021",
-                            "val": 108150,
+                            "dt": "12-01-2022",
+                            "val": 7900,
                             "rev": "N",
                             "itcavl": "Y",
                             "diffprcnt": 1,
                             "pos": "22",
                             "typ": "R",
-                            "inum": "AT/DUM/0070",
+                            "inum": "AEL/1322/2021-22",
                             "rsn": "",
                             "items": [
                                 {
-                                    "sgst": 5793.75,
-                                    "rt": 12,
-                                    "num": 1,
-                                    "txval": 96562.5,
-                                    "cgst": 5793.75,
+                                    "sgst": 602.54,
+                                    "rt": 18,
+                                    "num": 1801,
+                                    "txval": 6694.92,
+                                    "cgst": 602.54,
                                     "cess": 0
                                 }
                             ]
                         }
                     ],
-                    "trdnm": "ADITYA TRADELINK",
-                    "supfildt": "09-12-2021",
-                    "supprd": "112021",
-                    "ctin": "22AMUPA1168K1Z0"
+                    "trdnm": "ARISTO ELECTRICALS",
+                    "supfildt": "05-02-2022",
+                    "supprd": "012022",
+                    "ctin": "22AAKFA7825M1Z8"
                 },
                 {
                     "inv": [
+                        {
+                            "dt": "30-07-2021",
+                            "val": 3415,
+                            "rev": "N",
+                            "itcavl": "Y",
+                            "diffprcnt": 1,
+                            "pos": "22",
+                            "typ": "R",
+                            "inum": "2537",
+                            "rsn": "",
+                            "items": [
+                                {
+                                    "sgst": 260.47,
+                                    "rt": 18,
+                                    "num": 1,
+                                    "txval": 2894.09,
+                                    "cgst": 260.47,
+                                    "cess": 0
+                                }
+                            ]
+                        },
                         {
                             "dt": "21-08-2021",
-                            "val": 16300,
+                            "val": 12865,
                             "rev": "N",
                             "itcavl": "Y",
                             "diffprcnt": 1,
                             "pos": "22",
                             "typ": "R",
-                            "inum": "4321",
+                            "inum": "3036",
                             "rsn": "",
                             "items": [
                                 {
-                                    "sgst": 388.1,
-                                    "rt": 5,
-                                    "num": 1,
-                                    "txval": 15523.8,
-                                    "cgst": 388.1,
-                                    "cess": 0
-                                }
-                            ]
-                        }
-                    ],
-                    "trdnm": "GANGWANI AGENCCY",
-                    "supfildt": "14-11-2021",
-                    "supprd": "082021",
-                    "ctin": "22ADCPG8122C1ZC"
-                },
-                {
-                    "inv": [
-                        {
-                            "dt": "02-11-2021",
-                            "val": 98130,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "pos": "22",
-                            "typ": "R",
-                            "inum": "KMS/21-22/0596",
-                            "rsn": "",
-                            "items": [
-                                {
-                                    "sgst": 2336.43,
-                                    "rt": 5,
-                                    "num": 1,
-                                    "txval": 93457.3,
-                                    "cgst": 2336.43,
-                                    "cess": 0
-                                }
-                            ]
-                        }
-                    ],
-                    "trdnm": "KAILASH MAKHIJA STORES",
-                    "supfildt": "11-12-2021",
-                    "supprd": "112021",
-                    "ctin": "22AAGHM8532D1ZH"
-                },
-                {
-                    "inv": [
-                        {
-                            "dt": "19-11-2021",
-                            "val": 74897,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "pos": "22",
-                            "typ": "R",
-                            "inum": "AB/21-22/52",
-                            "rsn": "",
-                            "items": [
-                                {
-                                    "sgst": 1783.25,
-                                    "rt": 5,
-                                    "num": 1,
-                                    "txval": 71330.13,
-                                    "cgst": 1783.25,
-                                    "cess": 0
-                                }
-                            ]
-                        }
-                    ],
-                    "trdnm": "A.B. Agencies",
-                    "supfildt": "10-12-2021",
-                    "supprd": "112021",
-                    "ctin": "22AESPP2713H3ZG"
-                },
-                {
-                    "inv": [
-                        {
-                            "dt": "09-11-2021",
-                            "val": 89000,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "pos": "22",
-                            "typ": "R",
-                            "inum": "R1/01503/21-22",
-                            "rsn": "",
-                            "items": [
-                                {
-                                    "sgst": 4767.86,
-                                    "rt": 12,
-                                    "num": 1,
-                                    "txval": 79464.28,
-                                    "cgst": 4767.86,
-                                    "cess": 0
-                                }
-                            ]
-                        },
-                        {
-                            "dt": "11-11-2021",
-                            "val": 87550,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "pos": "22",
-                            "typ": "R",
-                            "inum": "R1/01560/21-22",
-                            "rsn": "",
-                            "items": [
-                                {
-                                    "sgst": 4690.18,
-                                    "rt": 12,
-                                    "num": 1,
-                                    "txval": 78169.64,
-                                    "cgst": 4690.18,
-                                    "cess": 0
-                                }
-                            ]
-                        },
-                        {
-                            "dt": "18-11-2021",
-                            "val": 89400,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "pos": "22",
-                            "typ": "R",
-                            "inum": "R1/01703/21-22",
-                            "rsn": "",
-                            "items": [
-                                {
-                                    "sgst": 4789.29,
-                                    "rt": 12,
-                                    "num": 1,
-                                    "txval": 79821.42,
-                                    "cgst": 4789.29,
-                                    "cess": 0
-                                }
-                            ]
-                        },
-                        {
-                            "dt": "19-11-2021",
-                            "val": 78400,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "pos": "22",
-                            "typ": "R",
-                            "inum": "R1/01718/21-22",
-                            "rsn": "",
-                            "items": [
-                                {
-                                    "sgst": 4200,
-                                    "rt": 12,
-                                    "num": 1,
-                                    "txval": 70000,
-                                    "cgst": 4200,
-                                    "cess": 0
-                                }
-                            ]
-                        },
-                        {
-                            "dt": "20-11-2021",
-                            "val": 89500,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "pos": "22",
-                            "typ": "R",
-                            "inum": "R1/01725/21-22",
-                            "rsn": "",
-                            "items": [
-                                {
-                                    "sgst": 4794.64,
-                                    "rt": 12,
-                                    "num": 1,
-                                    "txval": 79910.72,
-                                    "cgst": 4794.64,
-                                    "cess": 0
-                                }
-                            ]
-                        }
-                    ],
-                    "trdnm": "ROCHAK SOYA PVT LTD",
-                    "supfildt": "09-12-2021",
-                    "supprd": "112021",
-                    "ctin": "22AACCR6386H1ZA"
-                },
-                {
-                    "inv": [
-                        {
-                            "dt": "26-11-2021",
-                            "val": 24973,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "pos": "22",
-                            "typ": "R",
-                            "inum": "M8053",
-                            "rsn": "",
-                            "items": [
-                                {
-                                    "sgst": 594.59,
-                                    "rt": 5,
-                                    "num": 501,
-                                    "txval": 23783.72,
-                                    "cgst": 594.59,
-                                    "cess": 0
-                                }
-                            ]
-                        }
-                    ],
-                    "trdnm": "SHRI ARIHANT AGENCIES",
-                    "supfildt": "09-12-2021",
-                    "supprd": "112021",
-                    "ctin": "22ACIPJ2401N1ZW"
-                },
-                {
-                    "inv": [
-                        {
-                            "dt": "27-10-2021",
-                            "val": 24660,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "pos": "22",
-                            "typ": "R",
-                            "inum": "H11050",
-                            "rsn": "",
-                            "items": [
-                                {
-                                    "sgst": 587.14,
-                                    "rt": 5,
-                                    "num": 501,
-                                    "txval": 23485.71,
-                                    "cgst": 587.14,
-                                    "cess": 0
-                                }
-                            ]
-                        }
-                    ],
-                    "trdnm": "PRAKASH AGENCIES",
-                    "supfildt": "12-11-2021",
-                    "supprd": "102021",
-                    "ctin": "22AADFP3358H1ZF"
-                },
-                {
-                    "inv": [
-                        {
-                            "val": 202800,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "irn": "a826d39ecddb0093ea82f9c7180f05dc7a4df195694216a53d0c92e581e934db",
-                            "typ": "R",
-                            "irngendate": "10-11-2021",
-                            "inum": "STR/2122/01701",
-                            "rsn": "",
-                            "dt": "10-11-2021",
-                            "pos": "22",
-                            "srctyp": "E-Invoice",
-                            "items": [
-                                {
-                                    "sgst": 4828.57,
-                                    "rt": 5,
-                                    "num": 1,
-                                    "txval": 193142.9,
-                                    "cgst": 4828.57,
-                                    "cess": 0,
-                                    "igst": 0
-                                }
-                            ]
-                        }
-                    ],
-                    "trdnm": "SEWA TRADERS",
-                    "supfildt": "10-12-2021",
-                    "supprd": "112021",
-                    "ctin": "22AGVPP2670G1Z5"
-                },
-                {
-                    "inv": [
-                        {
-                            "dt": "18-11-2021",
-                            "val": 116820,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "pos": "22",
-                            "typ": "R",
-                            "inum": "GT/CR/2606",
-                            "rsn": "",
-                            "items": [
-                                {
-                                    "sgst": 2781.45,
-                                    "rt": 5,
-                                    "num": 1,
-                                    "txval": 111258,
-                                    "cgst": 2781.45,
-                                    "cess": 0
-                                }
-                            ]
-                        },
-                        {
-                            "dt": "26-11-2021",
-                            "val": 102000,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "pos": "22",
-                            "typ": "R",
-                            "inum": "GT/CR/2731",
-                            "rsn": "",
-                            "items": [
-                                {
-                                    "sgst": 2428.58,
-                                    "rt": 5,
-                                    "num": 1,
-                                    "txval": 97143,
-                                    "cgst": 2428.58,
-                                    "cess": 0
-                                }
-                            ]
-                        }
-                    ],
-                    "trdnm": "GOYAL TRADERS",
-                    "supfildt": "11-12-2021",
-                    "supprd": "112021",
-                    "ctin": "22AACFG1974F1ZR"
-                },
-                {
-                    "inv": [
-                        {
-                            "val": 706.82,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "irn": "221ce376229ca24c3d845c7725ed7ae72d39deda376f4fdcadbe703e8f9e37c5",
-                            "typ": "R",
-                            "irngendate": "04-11-2021",
-                            "inum": "HT2222I000008839",
-                            "rsn": "",
-                            "dt": "03-11-2021",
-                            "pos": "22",
-                            "srctyp": "E-Invoice",
-                            "items": [
-                                {
-                                    "sgst": 53.91,
+                                    "sgst": 981.25,
                                     "rt": 18,
                                     "num": 1,
-                                    "txval": 599,
-                                    "cgst": 53.91,
-                                    "igst": 0
+                                    "txval": 10902.74,
+                                    "cgst": 981.25,
+                                    "cess": 0
                                 }
                             ]
-                        }
-                    ],
-                    "trdnm": "BHARTI AIRTEL LIMITED",
-                    "supfildt": "10-12-2021",
-                    "supprd": "112021",
-                    "ctin": "22AAACB2894G1ZX"
-                },
-                {
-                    "inv": [
+                        },
                         {
-                            "dt": "27-11-2021",
-                            "val": 10931,
+                            "dt": "04-09-2021",
+                            "val": 18795,
                             "rev": "N",
                             "itcavl": "Y",
                             "diffprcnt": 1,
                             "pos": "22",
                             "typ": "R",
-                            "inum": "DIBL012322125842",
+                            "inum": "3319",
                             "rsn": "",
                             "items": [
                                 {
-                                    "sgst": 833.74,
+                                    "sgst": 1433.51,
                                     "rt": 18,
                                     "num": 1,
-                                    "txval": 9263.73,
-                                    "cgst": 833.74,
+                                    "txval": 15927.86,
+                                    "cgst": 1433.51,
                                     "cess": 0
                                 }
                             ]
                         }
                     ],
-                    "trdnm": "SHRI RADHE KRISNA AGENCIES",
-                    "supfildt": "09-12-2021",
-                    "supprd": "112021",
-                    "ctin": "22AAJFS3817N1ZX"
+                    "trdnm": "V4 AGENCY",
+                    "supfildt": "05-02-2022",
+                    "supprd": "092021",
+                    "ctin": "22AAEHV9549P1ZA"
                 },
                 {
                     "inv": [
                         {
-                            "dt": "22-11-2021",
-                            "val": 28700,
+                            "dt": "08-01-2022",
+                            "val": 28633,
                             "rev": "N",
                             "itcavl": "Y",
                             "diffprcnt": 1,
                             "pos": "22",
                             "typ": "R",
-                            "inum": "GST-4087",
+                            "inum": "A0005678",
                             "rsn": "",
                             "items": [
                                 {
-                                    "sgst": 683.33,
+                                    "sgst": 671.25,
                                     "rt": 5,
                                     "num": 1,
-                                    "txval": 27333.3,
-                                    "cgst": 683.33,
-                                    "cess": 0
-                                }
-                            ]
-                        }
-                    ],
-                    "trdnm": "SOJAT OILS",
-                    "supfildt": "11-12-2021",
-                    "supprd": "112021",
-                    "ctin": "22AEQPJ5405G1ZP"
-                },
-                {
-                    "inv": [
-                        {
-                            "dt": "26-11-2021",
-                            "val": 16259,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "pos": "22",
-                            "typ": "R",
-                            "inum": "O711527061",
-                            "rsn": "",
-                            "items": [
-                                {
-                                    "sgst": 1240.08,
-                                    "rt": 18,
-                                    "num": 1801,
-                                    "txval": 13778.72,
-                                    "cgst": 1240.08,
-                                    "cess": 0
-                                }
-                            ]
-                        }
-                    ],
-                    "trdnm": "ANIL BROTHERS",
-                    "supfildt": "11-12-2021",
-                    "supprd": "112021",
-                    "ctin": "22BQZPA6774K1Z8"
-                },
-                {
-                    "inv": [
-                        {
-                            "dt": "19-11-2021",
-                            "val": 99000,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "pos": "22",
-                            "typ": "R",
-                            "inum": "H11861",
-                            "rsn": "",
-                            "items": [
-                                {
-                                    "sgst": 2357.14,
-                                    "rt": 5,
-                                    "num": 501,
-                                    "txval": 94285.71,
-                                    "cgst": 2357.14,
+                                    "txval": 26850,
+                                    "cgst": 671.25,
                                     "cess": 0
                                 }
                             ]
                         },
                         {
-                            "dt": "26-11-2021",
-                            "val": 35000,
+                            "dt": "13-01-2022",
+                            "val": 31500,
                             "rev": "N",
                             "itcavl": "Y",
                             "diffprcnt": 1,
                             "pos": "22",
                             "typ": "R",
-                            "inum": "H12202",
+                            "inum": "A0005871",
                             "rsn": "",
                             "items": [
                                 {
-                                    "sgst": 833.33,
+                                    "sgst": 750,
                                     "rt": 5,
-                                    "num": 501,
-                                    "txval": 33333.33,
-                                    "cgst": 833.33,
+                                    "num": 1,
+                                    "txval": 30000,
+                                    "cgst": 750,
                                     "cess": 0
                                 }
                             ]
                         },
                         {
-                            "dt": "18-11-2021",
-                            "val": 41239,
+                            "dt": "31-01-2022",
+                            "val": 29597,
                             "rev": "N",
                             "itcavl": "Y",
                             "diffprcnt": 1,
                             "pos": "22",
                             "typ": "R",
-                            "inum": "T06900",
+                            "inum": "A0006491",
                             "rsn": "",
                             "items": [
                                 {
-                                    "sgst": 981.88,
-                                    "rt": 5,
-                                    "num": 501,
-                                    "txval": 39275.4,
-                                    "cgst": 981.88,
-                                    "cess": 0
-                                }
-                            ]
-                        }
-                    ],
-                    "trdnm": "PRAKASH AGENCIES",
-                    "supfildt": "11-12-2021",
-                    "supprd": "112021",
-                    "ctin": "22AADFP3358H1ZF"
-                },
-                {
-                    "inv": [
-                        {
-                            "dt": "30-11-2021",
-                            "val": 59,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "pos": "22",
-                            "typ": "R",
-                            "inum": "T1121221Z2124",
-                            "rsn": "",
-                            "items": [
-                                {
-                                    "sgst": 4.5,
-                                    "rt": 18,
-                                    "num": 1,
-                                    "txval": 50,
-                                    "cgst": 4.5,
-                                    "cess": 0,
-                                    "igst": 0
-                                }
-                            ]
-                        },
-                        {
-                            "dt": "30-11-2021",
-                            "val": 295,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "pos": "22",
-                            "typ": "R",
-                            "inum": "T1121221Z3756",
-                            "rsn": "",
-                            "items": [
-                                {
-                                    "sgst": 22.5,
-                                    "rt": 18,
-                                    "num": 1,
-                                    "txval": 250,
-                                    "cgst": 22.5,
-                                    "cess": 0,
-                                    "igst": 0
-                                }
-                            ]
-                        }
-                    ],
-                    "trdnm": "STATE BANK OF INDIA",
-                    "supfildt": "10-12-2021",
-                    "supprd": "112021",
-                    "ctin": "22AAACS8577K1ZZ"
-                },
-                {
-                    "inv": [
-                        {
-                            "dt": "27-11-2021",
-                            "val": 50775,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "pos": "22",
-                            "typ": "R",
-                            "inum": "RPR/21-22/2345",
-                            "rsn": "",
-                            "items": [
-                                {
-                                    "sgst": 1208.92,
-                                    "rt": 5,
-                                    "num": 501,
-                                    "txval": 48356.88,
-                                    "cgst": 1208.92,
-                                    "cess": 0
-                                }
-                            ]
-                        }
-                    ],
-                    "trdnm": "ASQUARE FOOD & BEVERAGES PRIVATE LIMITED",
-                    "supfildt": "11-12-2021",
-                    "supprd": "112021",
-                    "ctin": "22AANCA8045R1Z3"
-                },
-                {
-                    "inv": [
-                        {
-                            "dt": "01-10-2021",
-                            "val": 5280,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "pos": "22",
-                            "typ": "R",
-                            "inum": "O711519562",
-                            "rsn": "",
-                            "items": [
-                                {
-                                    "sgst": 402.71,
-                                    "rt": 18,
-                                    "num": 1801,
-                                    "txval": 4474.56,
-                                    "cgst": 402.71,
-                                    "cess": 0
-                                }
-                            ]
-                        },
-                        {
-                            "dt": "08-10-2021",
-                            "val": 4713,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "pos": "22",
-                            "typ": "R",
-                            "inum": "O711520436",
-                            "rsn": "",
-                            "items": [
-                                {
-                                    "sgst": 359.44,
-                                    "rt": 18,
-                                    "num": 1801,
-                                    "txval": 3993.83,
-                                    "cgst": 359.44,
-                                    "cess": 0
-                                }
-                            ]
-                        },
-                        {
-                            "dt": "21-10-2021",
-                            "val": 7776,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "pos": "22",
-                            "typ": "R",
-                            "inum": "O711522235",
-                            "rsn": "",
-                            "items": [
-                                {
-                                    "sgst": 593.08,
-                                    "rt": 18,
-                                    "num": 1801,
-                                    "txval": 6589.83,
-                                    "cgst": 593.08,
-                                    "cess": 0
-                                }
-                            ]
-                        },
-                        {
-                            "dt": "28-10-2021",
-                            "val": 188965,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "pos": "22",
-                            "typ": "R",
-                            "inum": "RUCH00182",
-                            "rsn": "",
-                            "items": [
-                                {
-                                    "sgst": 4499.17,
-                                    "rt": 5,
-                                    "num": 501,
-                                    "txval": 179966.8,
-                                    "cgst": 4499.17,
-                                    "cess": 0
-                                }
-                            ]
-                        }
-                    ],
-                    "trdnm": "ANIL BROTHERS",
-                    "supfildt": "28-11-2021",
-                    "supprd": "102021",
-                    "ctin": "22BQZPA6774K1Z8"
-                },
-                {
-                    "inv": [
-                        {
-                            "dt": "11-10-2021",
-                            "val": 2460.01,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "pos": "22",
-                            "typ": "R",
-                            "inum": "C-1-1817",
-                            "rsn": "",
-                            "items": [
-                                {
-                                    "sgst": 131.79,
-                                    "rt": 12,
-                                    "num": 1201,
-                                    "txval": 2196.43,
-                                    "cgst": 131.79,
-                                    "cess": 0
-                                }
-                            ]
-                        },
-                        {
-                            "dt": "27-10-2021",
-                            "val": 4330.09,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "pos": "22",
-                            "typ": "R",
-                            "inum": "C-1-2004",
-                            "rsn": "",
-                            "items": [
-                                {
-                                    "sgst": 103.1,
-                                    "rt": 5,
-                                    "num": 501,
-                                    "txval": 4123.89,
-                                    "cgst": 103.1,
-                                    "cess": 0
-                                }
-                            ]
-                        }
-                    ],
-                    "trdnm": "VIJAY AGENCIES",
-                    "supfildt": "30-11-2021",
-                    "supprd": "102021",
-                    "ctin": "22AICPJ3016B1Z9"
-                },
-                {
-                    "inv": [
-                        {
-                            "dt": "16-11-2021",
-                            "val": 20750,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "pos": "22",
-                            "typ": "R",
-                            "inum": "11144",
-                            "rsn": "",
-                            "items": [
-                                {
-                                    "sgst": 494.05,
+                                    "sgst": 704.7,
                                     "rt": 5,
                                     "num": 1,
-                                    "txval": 19761.9,
-                                    "cgst": 494.05,
-                                    "cess": 0
-                                }
-                            ]
-                        },
-                        {
-                            "dt": "18-11-2021",
-                            "val": 31125,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "pos": "22",
-                            "typ": "R",
-                            "inum": "11211",
-                            "rsn": "",
-                            "items": [
-                                {
-                                    "sgst": 741.07,
-                                    "rt": 5,
-                                    "num": 1,
-                                    "txval": 29642.85,
-                                    "cgst": 741.07,
-                                    "cess": 0
-                                }
-                            ]
-                        }
-                    ],
-                    "trdnm": "DHARIWAL SALES ENTERPRISE",
-                    "supfildt": "11-12-2021",
-                    "supprd": "112021",
-                    "ctin": "22AABFD8913A1Z4"
-                },
-                {
-                    "inv": [
-                        {
-                            "val": 149970,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "irn": "d2723601bf37bc07542bd0ed9dfa2c843c80c2ae96459d7b6738e8134ff60724",
-                            "typ": "R",
-                            "irngendate": "11-11-2021",
-                            "inum": "CR/21-22/2274",
-                            "rsn": "",
-                            "dt": "11-11-2021",
-                            "pos": "22",
-                            "srctyp": "E-Invoice",
-                            "items": [
-                                {
-                                    "sgst": 3570.71,
-                                    "rt": 5,
-                                    "num": 1,
-                                    "txval": 142828.5,
-                                    "cgst": 3570.71,
-                                    "cess": 0,
-                                    "igst": 0
-                                }
-                            ]
-                        },
-                        {
-                            "val": 112500,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "irn": "c81f8a7da9e88ef840829012bf383e572af327cae81abb8e402997ea108f6315",
-                            "typ": "R",
-                            "irngendate": "18-11-2021",
-                            "inum": "CR/21-22/2353",
-                            "rsn": "",
-                            "dt": "18-11-2021",
-                            "pos": "22",
-                            "srctyp": "E-Invoice",
-                            "items": [
-                                {
-                                    "sgst": 2678.58,
-                                    "rt": 5,
-                                    "num": 1,
-                                    "txval": 107143,
-                                    "cgst": 2678.58,
-                                    "cess": 0,
-                                    "igst": 0
-                                }
-                            ]
-                        },
-                        {
-                            "val": 74200,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "irn": "d5aaf78bb8453be07fd43525346bb19930106fba399a191ee067509b2bcb05a8",
-                            "typ": "R",
-                            "irngendate": "25-11-2021",
-                            "inum": "CR/21-22/2442",
-                            "rsn": "",
-                            "dt": "25-11-2021",
-                            "pos": "22",
-                            "srctyp": "E-Invoice",
-                            "items": [
-                                {
-                                    "sgst": 1766.67,
-                                    "rt": 5,
-                                    "num": 1,
-                                    "txval": 70666.75,
-                                    "cgst": 1766.67,
-                                    "cess": 0,
-                                    "igst": 0
-                                }
-                            ]
-                        }
-                    ],
-                    "trdnm": "Mayank Trading Co.",
-                    "supfildt": "10-12-2021",
-                    "supprd": "112021",
-                    "ctin": "22CMQPS8044G1ZO"
-                },
-                {
-                    "inv": [
-                        {
-                            "dt": "16-11-2021",
-                            "val": 18840,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "pos": "22",
-                            "typ": "R",
-                            "inum": "GST/21-22/1267",
-                            "rsn": "",
-                            "items": [
-                                {
-                                    "sgst": 448.58,
-                                    "rt": 5,
-                                    "num": 1,
-                                    "txval": 17943,
-                                    "cgst": 448.58,
-                                    "cess": 0
-                                }
-                            ]
-                        },
-                        {
-                            "dt": "24-11-2021",
-                            "val": 21890,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "pos": "22",
-                            "typ": "R",
-                            "inum": "GST/21-22/1372",
-                            "rsn": "",
-                            "items": [
-                                {
-                                    "sgst": 521.2,
-                                    "rt": 5,
-                                    "num": 1,
-                                    "txval": 20847.75,
-                                    "cgst": 521.2,
-                                    "cess": 0
-                                }
-                            ]
-                        }
-                    ],
-                    "trdnm": "AMIT AGENCIES",
-                    "supfildt": "11-12-2021",
-                    "supprd": "112021",
-                    "ctin": "22ABRPN7104Q1Z5"
-                },
-                {
-                    "inv": [
-                        {
-                            "dt": "16-10-2021",
-                            "val": 630,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "pos": "22",
-                            "typ": "R",
-                            "inum": "IS/1217/OCT-21",
-                            "rsn": "",
-                            "items": [
-                                {
-                                    "sgst": 48.05,
-                                    "rt": 18,
-                                    "num": 1801,
-                                    "txval": 533.9,
-                                    "cgst": 48.05,
-                                    "cess": 0
-                                }
-                            ]
-                        }
-                    ],
-                    "trdnm": "INFOTECH SOLUTIONS",
-                    "supfildt": "15-11-2021",
-                    "supprd": "102021",
-                    "ctin": "22ADJPV8505F1ZH"
-                },
-                {
-                    "inv": [
-                        {
-                            "dt": "24-11-2021",
-                            "val": 14175,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "pos": "22",
-                            "typ": "R",
-                            "inum": "DTS/1508/2021-22",
-                            "rsn": "",
-                            "items": [
-                                {
-                                    "sgst": 759.4,
-                                    "rt": 12,
-                                    "num": 1,
-                                    "txval": 12656.7,
-                                    "cgst": 759.4,
-                                    "cess": 0
-                                }
-                            ]
-                        }
-                    ],
-                    "trdnm": "DHEERAJ TEA SYNDICATE",
-                    "supfildt": "08-12-2021",
-                    "supprd": "112021",
-                    "ctin": "22ACIPA6140K1ZZ"
-                },
-                {
-                    "inv": [
-                        {
-                            "dt": "19-11-2021",
-                            "val": 139730,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "pos": "22",
-                            "typ": "R",
-                            "inum": "CRDT/21-22/2060",
-                            "rsn": "",
-                            "items": [
-                                {
-                                    "sgst": 3326.91,
-                                    "rt": 5,
-                                    "num": 501,
-                                    "txval": 133076.25,
-                                    "cgst": 3326.91,
-                                    "cess": 0
-                                }
-                            ]
-                        },
-                        {
-                            "dt": "22-11-2021",
-                            "val": 75600,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "pos": "22",
-                            "typ": "R",
-                            "inum": "CRDT/21-22/2090",
-                            "rsn": "",
-                            "items": [
-                                {
-                                    "sgst": 1800,
-                                    "rt": 5,
-                                    "num": 501,
-                                    "txval": 72000,
-                                    "cgst": 1800,
-                                    "cess": 0
-                                }
-                            ]
-                        }
-                    ],
-                    "trdnm": "LALCHAND TRADING COMPANY",
-                    "supfildt": "10-12-2021",
-                    "supprd": "112021",
-                    "ctin": "22AFTPP7059N1ZL"
-                },
-                {
-                    "inv": [
-                        {
-                            "val": 462235,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "irn": "81619118e41ebf1caff9200e1148470af8024656c5d14f81adc1e1118b1b85b6",
-                            "typ": "R",
-                            "irngendate": "30-11-2021",
-                            "inum": "RAI/T/406/21-22",
-                            "rsn": "",
-                            "dt": "30-11-2021",
-                            "pos": "22",
-                            "srctyp": "E-Invoice",
-                            "items": [
-                                {
-                                    "sgst": 11005.62,
-                                    "rt": 5,
-                                    "num": 1,
-                                    "txval": 440223.49,
-                                    "cgst": 11005.62,
-                                    "cess": 0,
-                                    "igst": 0
-                                }
-                            ]
-                        }
-                    ],
-                    "trdnm": "MOKSH AGARBATTI CO",
-                    "supfildt": "10-12-2021",
-                    "supprd": "112021",
-                    "ctin": "22AADFM0323R1ZE"
-                },
-                {
-                    "inv": [
-                        {
-                            "dt": "11-11-2021",
-                            "val": 38378,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "pos": "22",
-                            "typ": "R",
-                            "inum": "A0004217",
-                            "rsn": "",
-                            "items": [
-                                {
-                                    "sgst": 913.76,
-                                    "rt": 5,
-                                    "num": 1,
-                                    "txval": 36550.5,
-                                    "cgst": 913.76,
-                                    "cess": 0
-                                }
-                            ]
-                        },
-                        {
-                            "dt": "27-11-2021",
-                            "val": 15750,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "pos": "22",
-                            "typ": "R",
-                            "inum": "A0004590",
-                            "rsn": "",
-                            "items": [
-                                {
-                                    "sgst": 375,
-                                    "rt": 5,
-                                    "num": 1,
-                                    "txval": 15000,
-                                    "cgst": 375,
+                                    "txval": 28188,
+                                    "cgst": 704.7,
                                     "cess": 0
                                 }
                             ]
                         }
                     ],
                     "trdnm": "Deepa Enterprises",
-                    "supfildt": "10-12-2021",
-                    "supprd": "112021",
+                    "supfildt": "10-02-2022",
+                    "supprd": "012022",
                     "ctin": "22AAQFD5885Q1ZJ"
                 },
                 {
                     "inv": [
                         {
-                            "dt": "20-10-2021",
-                            "val": 70140,
+                            "dt": "07-01-2022",
+                            "val": 205000,
                             "rev": "N",
                             "itcavl": "Y",
                             "diffprcnt": 1,
                             "pos": "22",
                             "typ": "R",
-                            "inum": "118",
+                            "inum": "GST-5047",
                             "rsn": "",
                             "items": [
                                 {
-                                    "rt": 5,
-                                    "num": 500,
-                                    "txval": 66800,
-                                    "igst": 3340
-                                }
-                            ]
-                        },
-                        {
-                            "dt": "20-10-2021",
-                            "val": 49896,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "pos": "22",
-                            "typ": "R",
-                            "inum": "119",
-                            "rsn": "",
-                            "items": [
-                                {
-                                    "rt": 5,
-                                    "num": 500,
-                                    "txval": 47520,
-                                    "igst": 2376
-                                }
-                            ]
-                        }
-                    ],
-                    "trdnm": "LIBERTY TRADERS",
-                    "supfildt": "12-11-2021",
-                    "supprd": "102021",
-                    "ctin": "36AAGPU5586K2ZV"
-                },
-                {
-                    "inv": [
-                        {
-                            "dt": "30-11-2021",
-                            "val": 550,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "pos": "22",
-                            "typ": "R",
-                            "inum": "IS/2273/NOV-21",
-                            "rsn": "",
-                            "items": [
-                                {
-                                    "sgst": 41.95,
-                                    "rt": 18,
-                                    "num": 1801,
-                                    "txval": 466.1,
-                                    "cgst": 41.95,
-                                    "cess": 0
-                                }
-                            ]
-                        }
-                    ],
-                    "trdnm": "INFOTECH SOLUTIONS",
-                    "supfildt": "11-12-2021",
-                    "supprd": "112021",
-                    "ctin": "22ADJPV8505F1ZH"
-                },
-                {
-                    "inv": [
-                        {
-                            "dt": "11-11-2021",
-                            "val": 73168,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "pos": "22",
-                            "typ": "R",
-                            "inum": "B/1230",
-                            "rsn": "",
-                            "items": [
-                                {
-                                    "sgst": 3919.72,
-                                    "rt": 12,
-                                    "num": 1201,
-                                    "txval": 65328.64,
-                                    "cgst": 3919.72,
-                                    "cess": 0
-                                }
-                            ]
-                        }
-                    ],
-                    "trdnm": "A. K. AGENCIES",
-                    "supfildt": "07-12-2021",
-                    "supprd": "112021",
-                    "ctin": "22AJFPM9000Q1Z2"
-                },
-                {
-                    "inv": [
-                        {
-                            "dt": "15-11-2021",
-                            "val": 304000,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "pos": "22",
-                            "typ": "R",
-                            "inum": "275",
-                            "rsn": "",
-                            "items": [
-                                {
-                                    "sgst": 7238.1,
-                                    "rt": 5,
-                                    "num": 2,
-                                    "txval": 289523.8,
-                                    "cgst": 7238.1,
-                                    "cess": 0
-                                }
-                            ]
-                        }
-                    ],
-                    "trdnm": "R S AGRAWAL TRADERS",
-                    "supfildt": "04-12-2021",
-                    "supprd": "112021",
-                    "ctin": "22AFVPA0336F2ZW"
-                },
-                {
-                    "inv": [
-                        {
-                            "dt": "01-10-2021",
-                            "val": 11860,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "pos": "22",
-                            "typ": "R",
-                            "inum": "M7495",
-                            "rsn": "",
-                            "items": [
-                                {
-                                    "sgst": 282.38,
-                                    "rt": 5,
-                                    "num": 501,
-                                    "txval": 11295.18,
-                                    "cgst": 282.38,
-                                    "cess": 0
-                                }
-                            ]
-                        },
-                        {
-                            "dt": "16-10-2021",
-                            "val": 10882,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "pos": "22",
-                            "typ": "R",
-                            "inum": "M7641",
-                            "rsn": "",
-                            "items": [
-                                {
-                                    "sgst": 259.11,
-                                    "rt": 5,
-                                    "num": 501,
-                                    "txval": 10364.23,
-                                    "cgst": 259.11,
-                                    "cess": 0
-                                }
-                            ]
-                        }
-                    ],
-                    "trdnm": "SHRI ARIHANT AGENCIES",
-                    "supfildt": "19-11-2021",
-                    "supprd": "102021",
-                    "ctin": "22ACIPJ2401N1ZW"
-                },
-                {
-                    "inv": [
-                        {
-                            "dt": "10-11-2021",
-                            "val": 64320,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "pos": "22",
-                            "typ": "R",
-                            "inum": "CR/21-22/495",
-                            "rsn": "",
-                            "items": [
-                                {
-                                    "sgst": 1531.43,
+                                    "sgst": 4880.95,
                                     "rt": 5,
                                     "num": 1,
-                                    "txval": 61257.2,
-                                    "cgst": 1531.43,
+                                    "txval": 195238,
+                                    "cgst": 4880.95,
                                     "cess": 0
                                 }
                             ]
                         },
                         {
-                            "dt": "22-11-2021",
-                            "val": 108080,
+                            "dt": "10-01-2022",
+                            "val": 212000,
                             "rev": "N",
                             "itcavl": "Y",
                             "diffprcnt": 1,
                             "pos": "22",
                             "typ": "R",
-                            "inum": "CR/21-22/527",
+                            "inum": "GST-5132",
                             "rsn": "",
                             "items": [
                                 {
-                                    "sgst": 2573.34,
+                                    "sgst": 5047.63,
                                     "rt": 5,
                                     "num": 1,
-                                    "txval": 102933.4,
-                                    "cgst": 2573.34,
+                                    "txval": 201905,
+                                    "cgst": 5047.63,
+                                    "cess": 0
+                                }
+                            ]
+                        },
+                        {
+                            "dt": "18-01-2022",
+                            "val": 112960,
+                            "rev": "N",
+                            "itcavl": "Y",
+                            "diffprcnt": 1,
+                            "pos": "22",
+                            "typ": "R",
+                            "inum": "GST-5301",
+                            "rsn": "",
+                            "items": [
+                                {
+                                    "sgst": 2689.53,
+                                    "rt": 5,
+                                    "num": 1,
+                                    "txval": 107581,
+                                    "cgst": 2689.53,
+                                    "cess": 0
+                                }
+                            ]
+                        },
+                        {
+                            "dt": "25-01-2022",
+                            "val": 63810,
+                            "rev": "N",
+                            "itcavl": "Y",
+                            "diffprcnt": 1,
+                            "pos": "22",
+                            "typ": "R",
+                            "inum": "GST-5456",
+                            "rsn": "",
+                            "items": [
+                                {
+                                    "sgst": 1519.29,
+                                    "rt": 5,
+                                    "num": 1,
+                                    "txval": 60771.6,
+                                    "cgst": 1519.29,
                                     "cess": 0
                                 }
                             ]
                         }
                     ],
-                    "trdnm": "MAYANK AGENCIES",
-                    "supfildt": "07-12-2021",
-                    "supprd": "112021",
-                    "ctin": "22HELPS6391C1Z7"
+                    "trdnm": "SOJAT OILS",
+                    "supfildt": "08-02-2022",
+                    "supprd": "012022",
+                    "ctin": "22AEQPJ5405G1ZP"
                 }
             ]
         },
-        "gendt": "14-12-2021",
+        "gendt": "14-02-2022",
         "gstin": "22AEZPA0778G1ZF",
-        "version": "1.0",
-        "cpsumm": {
-            "b2b": [
-                {
-                    "sgst": 53.91,
-                    "ttldocs": 1,
-                    "trdnm": "BHARTI AIRTEL LIMITED",
-                    "supprd": "112021",
-                    "supfildt": "10-12-2021",
-                    "txval": 599,
-                    "ctin": "22AAACB2894G1ZX",
-                    "cgst": 53.91,
-                    "cess": 0,
-                    "igst": 0
-                },
-                {
-                    "sgst": 27,
-                    "ttldocs": 2,
-                    "trdnm": "STATE BANK OF INDIA",
-                    "supprd": "112021",
-                    "supfildt": "10-12-2021",
-                    "txval": 300,
-                    "ctin": "22AAACS8577K1ZZ",
-                    "cgst": 27,
-                    "cess": 0,
-                    "igst": 0
-                },
-                {
-                    "sgst": 1235.12,
-                    "ttldocs": 2,
-                    "trdnm": "DHARIWAL SALES ENTERPRISE",
-                    "supprd": "112021",
-                    "supfildt": "11-12-2021",
-                    "txval": 49404.75,
-                    "ctin": "22AABFD8913A1Z4",
-                    "cgst": 1235.12,
-                    "cess": 0,
-                    "igst": 0
-                },
-                {
-                    "sgst": 23241.97,
-                    "ttldocs": 5,
-                    "trdnm": "ROCHAK SOYA PVT LTD",
-                    "supprd": "112021",
-                    "supfildt": "09-12-2021",
-                    "txval": 387366.06,
-                    "ctin": "22AACCR6386H1ZA",
-                    "cgst": 23241.97,
-                    "cess": 0,
-                    "igst": 0
-                },
-                {
-                    "sgst": 5210.03,
-                    "ttldocs": 2,
-                    "trdnm": "GOYAL TRADERS",
-                    "supprd": "112021",
-                    "supfildt": "11-12-2021",
-                    "txval": 208401,
-                    "ctin": "22AACFG1974F1ZR",
-                    "cgst": 5210.03,
-                    "cess": 0,
-                    "igst": 0
-                },
-                {
-                    "sgst": 11005.62,
-                    "ttldocs": 1,
-                    "trdnm": "MOKSH AGARBATTI CO",
-                    "supprd": "112021",
-                    "supfildt": "10-12-2021",
-                    "txval": 440223.49,
-                    "ctin": "22AADFM0323R1ZE",
-                    "cgst": 11005.62,
-                    "cess": 0,
-                    "igst": 0
-                },
-                {
-                    "sgst": 587.14,
-                    "ttldocs": 1,
-                    "trdnm": "PRAKASH AGENCIES",
-                    "supprd": "102021",
-                    "supfildt": "12-11-2021",
-                    "txval": 23485.71,
-                    "ctin": "22AADFP3358H1ZF",
-                    "cgst": 587.14,
-                    "cess": 0,
-                    "igst": 0
-                },
-                {
-                    "sgst": 4172.35,
-                    "ttldocs": 3,
-                    "trdnm": "PRAKASH AGENCIES",
-                    "supprd": "112021",
-                    "supfildt": "11-12-2021",
-                    "txval": 166894.44,
-                    "ctin": "22AADFP3358H1ZF",
-                    "cgst": 4172.35,
-                    "cess": 0,
-                    "igst": 0
-                },
-                {
-                    "sgst": 3207.36,
-                    "ttldocs": 1,
-                    "trdnm": "AMAR AGENCIES",
-                    "supprd": "112021",
-                    "supfildt": "11-12-2021",
-                    "txval": 35637.31,
-                    "ctin": "22AAEFA0060A1ZM",
-                    "cgst": 3207.36,
-                    "cess": 0,
-                    "igst": 0
-                },
-                {
-                    "sgst": 2336.43,
-                    "ttldocs": 1,
-                    "trdnm": "KAILASH MAKHIJA STORES",
-                    "supprd": "112021",
-                    "supfildt": "11-12-2021",
-                    "txval": 93457.3,
-                    "ctin": "22AAGHM8532D1ZH",
-                    "cgst": 2336.43,
-                    "cess": 0,
-                    "igst": 0
-                },
-                {
-                    "sgst": 833.74,
-                    "ttldocs": 1,
-                    "trdnm": "SHRI RADHE KRISNA AGENCIES",
-                    "supprd": "112021",
-                    "supfildt": "09-12-2021",
-                    "txval": 9263.73,
-                    "ctin": "22AAJFS3817N1ZX",
-                    "cgst": 833.74,
-                    "cess": 0,
-                    "igst": 0
-                },
-                {
-                    "sgst": 1208.92,
-                    "ttldocs": 1,
-                    "trdnm": "ASQUARE FOOD & BEVERAGES PRIVATE LIMITED",
-                    "supprd": "112021",
-                    "supfildt": "11-12-2021",
-                    "txval": 48356.88,
-                    "ctin": "22AANCA8045R1Z3",
-                    "cgst": 1208.92,
-                    "cess": 0,
-                    "igst": 0
-                },
-                {
-                    "sgst": 1288.76,
-                    "ttldocs": 2,
-                    "trdnm": "Deepa Enterprises",
-                    "supprd": "112021",
-                    "supfildt": "10-12-2021",
-                    "txval": 51550.5,
-                    "ctin": "22AAQFD5885Q1ZJ",
-                    "cgst": 1288.76,
-                    "cess": 0,
-                    "igst": 0
-                },
-                {
-                    "sgst": 969.78,
-                    "ttldocs": 2,
-                    "trdnm": "AMIT AGENCIES",
-                    "supprd": "112021",
-                    "supfildt": "11-12-2021",
-                    "txval": 38790.75,
-                    "ctin": "22ABRPN7104Q1Z5",
-                    "cgst": 969.78,
-                    "cess": 0,
-                    "igst": 0
-                },
-                {
-                    "sgst": 759.4,
-                    "ttldocs": 1,
-                    "trdnm": "DHEERAJ TEA SYNDICATE",
-                    "supprd": "112021",
-                    "supfildt": "08-12-2021",
-                    "txval": 12656.7,
-                    "ctin": "22ACIPA6140K1ZZ",
-                    "cgst": 759.4,
-                    "cess": 0,
-                    "igst": 0
-                },
-                {
-                    "sgst": 541.49,
-                    "ttldocs": 2,
-                    "trdnm": "SHRI ARIHANT AGENCIES",
-                    "supprd": "102021",
-                    "supfildt": "19-11-2021",
-                    "txval": 21659.41,
-                    "ctin": "22ACIPJ2401N1ZW",
-                    "cgst": 541.49,
-                    "cess": 0,
-                    "igst": 0
-                },
-                {
-                    "sgst": 594.59,
-                    "ttldocs": 1,
-                    "trdnm": "SHRI ARIHANT AGENCIES",
-                    "supprd": "112021",
-                    "supfildt": "09-12-2021",
-                    "txval": 23783.72,
-                    "ctin": "22ACIPJ2401N1ZW",
-                    "cgst": 594.59,
-                    "cess": 0,
-                    "igst": 0
-                },
-                {
-                    "sgst": 388.1,
-                    "ttldocs": 1,
-                    "trdnm": "GANGWANI AGENCCY",
-                    "supprd": "082021",
-                    "supfildt": "14-11-2021",
-                    "txval": 15523.8,
-                    "ctin": "22ADCPG8122C1ZC",
-                    "cgst": 388.1,
-                    "cess": 0,
-                    "igst": 0
-                },
-                {
-                    "sgst": 48.05,
-                    "ttldocs": 1,
-                    "trdnm": "INFOTECH SOLUTIONS",
-                    "supprd": "102021",
-                    "supfildt": "15-11-2021",
-                    "txval": 533.9,
-                    "ctin": "22ADJPV8505F1ZH",
-                    "cgst": 48.05,
-                    "cess": 0,
-                    "igst": 0
-                },
-                {
-                    "sgst": 41.95,
-                    "ttldocs": 1,
-                    "trdnm": "INFOTECH SOLUTIONS",
-                    "supprd": "112021",
-                    "supfildt": "11-12-2021",
-                    "txval": 466.1,
-                    "ctin": "22ADJPV8505F1ZH",
-                    "cgst": 41.95,
-                    "cess": 0,
-                    "igst": 0
-                },
-                {
-                    "sgst": 683.33,
-                    "ttldocs": 1,
-                    "trdnm": "SOJAT OILS",
-                    "supprd": "112021",
-                    "supfildt": "11-12-2021",
-                    "txval": 27333.3,
-                    "ctin": "22AEQPJ5405G1ZP",
-                    "cgst": 683.33,
-                    "cess": 0,
-                    "igst": 0
-                },
-                {
-                    "sgst": 1783.25,
-                    "ttldocs": 1,
-                    "trdnm": "A.B. Agencies",
-                    "supprd": "112021",
-                    "supfildt": "10-12-2021",
-                    "txval": 71330.13,
-                    "ctin": "22AESPP2713H3ZG",
-                    "cgst": 1783.25,
-                    "cess": 0,
-                    "igst": 0
-                },
-                {
-                    "sgst": 5126.91,
-                    "ttldocs": 2,
-                    "trdnm": "LALCHAND TRADING COMPANY",
-                    "supprd": "112021",
-                    "supfildt": "10-12-2021",
-                    "txval": 205076.25,
-                    "ctin": "22AFTPP7059N1ZL",
-                    "cgst": 5126.91,
-                    "cess": 0,
-                    "igst": 0
-                },
-                {
-                    "sgst": 7238.1,
-                    "ttldocs": 1,
-                    "trdnm": "R S AGRAWAL TRADERS",
-                    "supprd": "112021",
-                    "supfildt": "04-12-2021",
-                    "txval": 289523.8,
-                    "ctin": "22AFVPA0336F2ZW",
-                    "cgst": 7238.1,
-                    "cess": 0,
-                    "igst": 0
-                },
-                {
-                    "sgst": 4828.57,
-                    "ttldocs": 1,
-                    "trdnm": "SEWA TRADERS",
-                    "supprd": "112021",
-                    "supfildt": "10-12-2021",
-                    "txval": 193142.9,
-                    "ctin": "22AGVPP2670G1Z5",
-                    "cgst": 4828.57,
-                    "cess": 0,
-                    "igst": 0
-                },
-                {
-                    "sgst": 234.89,
-                    "ttldocs": 2,
-                    "trdnm": "VIJAY AGENCIES",
-                    "supprd": "102021",
-                    "supfildt": "30-11-2021",
-                    "txval": 6320.32,
-                    "ctin": "22AICPJ3016B1Z9",
-                    "cgst": 234.89,
-                    "cess": 0,
-                    "igst": 0
-                },
-                {
-                    "sgst": 3919.72,
-                    "ttldocs": 1,
-                    "trdnm": "A. K. AGENCIES",
-                    "supprd": "112021",
-                    "supfildt": "07-12-2021",
-                    "txval": 65328.64,
-                    "ctin": "22AJFPM9000Q1Z2",
-                    "cgst": 3919.72,
-                    "cess": 0,
-                    "igst": 0
-                },
-                {
-                    "sgst": 13963.39,
-                    "ttldocs": 2,
-                    "trdnm": "ADITYA TRADELINK",
-                    "supprd": "112021",
-                    "supfildt": "09-12-2021",
-                    "txval": 232723.21,
-                    "ctin": "22AMUPA1168K1Z0",
-                    "cgst": 13963.39,
-                    "cess": 0,
-                    "igst": 0
-                },
-                {
-                    "sgst": 5854.4,
-                    "ttldocs": 4,
-                    "trdnm": "ANIL BROTHERS",
-                    "supprd": "102021",
-                    "supfildt": "28-11-2021",
-                    "txval": 195025.02,
-                    "ctin": "22BQZPA6774K1Z8",
-                    "cgst": 5854.4,
-                    "cess": 0,
-                    "igst": 0
-                },
-                {
-                    "sgst": 1240.08,
-                    "ttldocs": 1,
-                    "trdnm": "ANIL BROTHERS",
-                    "supprd": "112021",
-                    "supfildt": "11-12-2021",
-                    "txval": 13778.72,
-                    "ctin": "22BQZPA6774K1Z8",
-                    "cgst": 1240.08,
-                    "cess": 0,
-                    "igst": 0
-                },
-                {
-                    "sgst": 8015.96,
-                    "ttldocs": 3,
-                    "trdnm": "Mayank Trading Co.",
-                    "supprd": "112021",
-                    "supfildt": "10-12-2021",
-                    "txval": 320638.25,
-                    "ctin": "22CMQPS8044G1ZO",
-                    "cgst": 8015.96,
-                    "cess": 0,
-                    "igst": 0
-                },
-                {
-                    "sgst": 2405.95,
-                    "ttldocs": 1,
-                    "trdnm": "Sumeet Enterprises",
-                    "supprd": "112021",
-                    "supfildt": "10-12-2021",
-                    "txval": 96238,
-                    "ctin": "22CTSPP5540H1ZE",
-                    "cgst": 2405.95,
-                    "cess": 0,
-                    "igst": 0
-                },
-                {
-                    "sgst": 4104.77,
-                    "ttldocs": 2,
-                    "trdnm": "MAYANK AGENCIES",
-                    "supprd": "112021",
-                    "supfildt": "07-12-2021",
-                    "txval": 164190.6,
-                    "ctin": "22HELPS6391C1Z7",
-                    "cgst": 4104.77,
-                    "cess": 0,
-                    "igst": 0
-                },
-                {
-                    "sgst": 0,
-                    "ttldocs": 1,
-                    "trdnm": "M/S  GOVIND TRADERS",
-                    "supprd": "102021",
-                    "supfildt": "17-11-2021",
-                    "txval": 264000,
-                    "ctin": "23ABZPM1948H1Z7",
-                    "cgst": 0,
-                    "cess": 0,
-                    "igst": 0
-                },
-                {
-                    "sgst": 0,
-                    "ttldocs": 2,
-                    "trdnm": "LIBERTY TRADERS",
-                    "supprd": "102021",
-                    "supfildt": "12-11-2021",
-                    "txval": 114320,
-                    "ctin": "36AAGPU5586K2ZV",
-                    "cgst": 0,
-                    "cess": 0,
-                    "igst": 5716
-                }
-            ]
-        }
+        "version": "1.0"
     },
-    "chksum": "72fd3e588bfe6fc1f1fa7573f0eb749e5947e87118545e1e3d33f97a59dce73b"
+    "chksum": "e5b98ef7514e3c25ca96a088bc9edb9ca071e2fb0a0b517e925e131b87819bef"
 }
