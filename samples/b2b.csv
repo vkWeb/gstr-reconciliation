@@ -1,8 +1,5 @@
-GSTIN of Supplier,Invoice Number,Invoice date,Invoice Value,Place Of Supply,Reverse Charge,Invoice Type,Rate,Taxable Value,Integrated Tax Paid,Central Tax Paid,State/UT Tax Paid,Cess Paid,Eligibility For ITC,Availed ITC Integrated Tax,Availed ITC Central Tax,Availed ITC State/UT Tax,Availed ITC Cess
-"22ABRPN7104Q1Z5","2074","04-Jan-2022",21880.00,"22-Chhattisgarh","N","Regular",5.00,20838.10,0.00,520.95,520.95,0.00,"Inputs",0.00,520.95,520.95,0.00
-"22AEUPM9951J1ZS","439","04-Jan-2022",129720.00,"22-Chhattisgarh","N","Regular",5.00,123619.06,0.00,3090.47,3090.47,0.00,"Inputs",0.00,3090.47,3090.47,0.00
-"22AIVPM0554E1ZC","0598","05-Jan-2022",153000.00,"22-Chhattisgarh","N","Regular",5.00,145714.28,0.00,3642.86,3642.86,0.00,"Inputs",0.00,3642.86,3642.86,0.00
-"22AGVPP2674C1Z9","1233","05-Jan-2022",119635.00,"22-Chhattisgarh","N","Regular",5.00,113938.10,0.00,2848.45,2848.45,0.00,"Inputs",0.00,2848.45,2848.45,0.00
-"22AGVPP2674C1Z9","1234","05-Jan-2022",27767.50,"22-Chhattisgarh","N","Regular",5.00,26445.22,0.00,661.14,661.14,0.00,"Inputs",0.00,661.14,661.14,0.00
-"22CMQPS8044G1ZO","2900","05-Jan-2022",41044.00,"22-Chhattisgarh","N","Regular",5.00,25626.66,0.00,640.67,640.67,0.00,"Inputs",0.00,640.67,640.67,0.00
-"22CMQPS8044G1ZO","2900","05-Jan-2022",41044.00,"22-Chhattisgarh","N","Regular",12.00,12621.42,0.00,757.29,757.29,0.00,"Inputs",0.00,757.29,757.29,0.00
+GSTIN of Supplier,Invoice Number,Invoice date,Invoice Value,Place Of Supply,Reverse Charge,Invoice Type,Rate,Taxable Value,Integrated Tax Paid,Central Tax Paid,State/UT Tax Paid,Status
+22ATSPA3620P1ZL,1702,07-Jan-2022,21880,22-Chhattisgarh,N,Regular,5,96190.5,0,2404.76,2404.76,match
+22AAKFA7825M1Z8,AEL/1322/2021-22,12-Jan-2022,129720,22-Chhattisgarh,N,Regular,18,6694.92,0,602.54,602.54,match
+22AAKFA7825M1Z8,AEL/1289/2021-22,07-Jan-2022,153000,22-Chhattisgarh,N,Regular,18,6000.92,0,602.54,602.54,unmatch wrong tax val
+22AGVPP2674C1Z9,1233,05-Jan-2022,119635,22-Chhattisgarh,N,Regular,5,113938.1,0,2848.45,2848.45,not in json

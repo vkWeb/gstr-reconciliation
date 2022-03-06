@@ -1,54 +1,62 @@
 import json
 import csv
 
+from decimal import Decimal
+from datetime import datetime
+
 
 def build_dict(gstr2b_file_handler, csv_file_handler):
     load_f = json.load(gstr2b_file_handler)
     json_dict = {}
-    for x in load_f["data"]["docdata"]["b2b"]:
-        for i in x["inv"]:
-            for j in i["items"]:
-                if j["rt"] != 0:
-                    if j.get("igst") is not None and j["igst"] != 0:
-                        json_dict[str(x["ctin"]) + "".join([str(i["inum"])])] = {
-                            "gstin": str(x["ctin"]),
-                            "inv_num": str(i["inum"]),
-                            "date": str(i["dt"]),
-                            "tax_val": float(j["txval"]),
-                            "rate": int(j["rt"]),
+
+    for supplier in load_f["data"]["docdata"]["b2b"]:
+        for inv in supplier["inv"]:
+            for inv_item in inv["items"]:
+                if inv_item["rt"] > 0:
+                    if inv_item.get("igst") is not None and Decimal(inv_item["igst"]) > 0.00:
+                        json_dict[str(supplier["ctin"] + inv["inum"])] = {
+                            "gstin": supplier["ctin"],
+                            "inv_num": inv["inum"],
+                            "date": inv["dt"],
+                            "taxable_value": str(inv_item["txval"]),
+                            "rate": inv_item["rt"],
                             "supply_type": "INTER",
                         }
                     else:
-                        json_dict[str(x["ctin"]) + "".join([str(i["inum"])])] = {
-                            "gstin": str(x["ctin"]),
-                            "inv_num": str(i["inum"]),
-                            "date": str(i["dt"]),
-                            "tax_val": float(j["txval"]),
-                            "rate": int(j["rt"]),
+                        json_dict[str(supplier["ctin"] + inv["inum"])] = {
+                            "gstin": supplier["ctin"],
+                            "inv_num": inv["inum"],
+                            "date": inv["dt"],
+                            "taxable_value": str(inv_item["txval"]),
+                            "rate": inv_item["rt"],
                             "supply_type": "INTRA",
                         }
 
     decoded_file = csv_file_handler.read().decode("utf-8").splitlines()
     load_c = csv.DictReader(decoded_file)
     csv_dict = {}
+    
     for row in load_c:
-        if int(float(row["Rate"].strip())) != 0:
-            if row["State/UT Tax Paid"] != 0:
+        if int(row["Rate"]) > 0:
+            inv_date_obj = datetime.strptime(row["Invoice date"], "%d-%b-%Y").date()
+            inv_date_fstr = inv_date_obj.strftime("%d-%m-%Y")
+            
+            if Decimal(row["State/UT Tax Paid"]) > 0.00:
                 csv_dict[str(row["GSTIN of Supplier"] + row["Invoice Number"])] = {
-                    "gstin": str(row["GSTIN of Supplier"]).strip(),
-                    "inv_num": str(row["Invoice Number"]).strip(),
-                    "date": str(row["Invoice date"]).strip(),
-                    "tax_val": float(row["Taxable Value"].strip()),
-                    "rate": int(float(row["Rate"].strip())),
+                    "gstin": row["GSTIN of Supplier"],
+                    "inv_num": row["Invoice Number"],
+                    "date": inv_date_fstr,
+                    "taxable_value": str(row["Taxable Value"]),
+                    "rate": int(row["Rate"]),
                     "supply_type": "INTRA",
                 }
             else:
                 csv_dict[str(row["GSTIN of Supplier"] + row["Invoice Number"])] = {
-                    "gstin": str(row["GSTIN of Supplier"]).strip(),
-                    "inv_num": str(row["Invoice Number"]).strip(),
-                    "date": str(row["Invoice date"]).strip(),
-                    "tax_val": float(row["Taxable Value"].strip()),
-                    "rate": int(float(row["Rate"].strip())),
+                    "gstin": row["GSTIN of Supplier"],
+                    "inv_num": row["Invoice Number"],
+                    "date": inv_date_fstr,
+                    "taxable_value": str(row["Taxable Value"]),
+                    "rate": int(row["Rate"]),
                     "supply_type": "INTER",
                 }
 

@@ -1,0 +1,51 @@
+{
+    "matched": [
+        {
+            "gstin": "22ATSPA3620P1ZL",
+            "inv_num": "1702",
+            "date": "07-01-2022",
+            "taxable_value": "96190.5",
+            "rate": 5,
+            "supply_type": "INTRA"
+        },
+        {
+            "gstin": "22AAKFA7825M1Z8",
+            "inv_num": "AEL/1322/2021-22",
+            "date": "12-01-2022",
+            "taxable_value": "6694.92",
+            "rate": 18,
+            "supply_type": "INTRA"
+        }
+    ],
+    "mismatched": [
+        {
+            "gstin": "22AAKFA7825M1Z8",
+            "inv_num": "AEL/1289/2021-22",
+            "date": "07-01-2022",
+            "taxable_value": "6000.92",
+            "rate": 18,
+            "supply_type": "INTRA"
+        }
+    ],
+    "missing_in_csv": [
+        {
+            "gstin": "22AAEHV9549P1ZA",
+            "inv_num": "2537",
+            "date": "30-07-2021",
+            "taxable_value": "2894.09",
+            "rate": 18,
+            "supply_type": "INTRA"
+        }
+    ],
+    "missing_in_json": [
+        {
+            "gstin": "22AGVPP2674C1Z9",
+            "inv_num": "1233",
+            "date": "05-01-2022",
+            "taxable_value": "113938.1",
+            "rate": 5,
+            "supply_type": "INTRA"
+        }
+    ],
+    "total_invoices": 5
+}

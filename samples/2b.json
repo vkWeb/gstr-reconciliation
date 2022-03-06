@@ -31,6 +31,7 @@
                             "typ": "R",
                             "inum": "1702",
                             "rsn": "",
+                            "status": "match",
                             "items": [
                                 {
                                     "sgst": 2404.76,
@@ -60,6 +61,7 @@
                             "typ": "R",
                             "inum": "AEL/1289/2021-22",
                             "rsn": "",
+                            "status": "unmatch",
                             "items": [
                                 {
                                     "sgst": 602.54,
@@ -81,6 +83,7 @@
                             "typ": "R",
                             "inum": "AEL/1322/2021-22",
                             "rsn": "",
+                            "status": "match",
                             "items": [
                                 {
                                     "sgst": 602.54,
@@ -110,6 +113,7 @@
                             "typ": "R",
                             "inum": "2537",
                             "rsn": "",
+                            "status": "not in csv",
                             "items": [
                                 {
                                     "sgst": 260.47,
@@ -120,217 +124,12 @@
                                     "cess": 0
                                 }
                             ]
-                        },
-                        {
-                            "dt": "21-08-2021",
-                            "val": 12865,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "pos": "22",
-                            "typ": "R",
-                            "inum": "3036",
-                            "rsn": "",
-                            "items": [
-                                {
-                                    "sgst": 981.25,
-                                    "rt": 18,
-                                    "num": 1,
-                                    "txval": 10902.74,
-                                    "cgst": 981.25,
-                                    "cess": 0
-                                }
-                            ]
-                        },
-                        {
-                            "dt": "04-09-2021",
-                            "val": 18795,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "pos": "22",
-                            "typ": "R",
-                            "inum": "3319",
-                            "rsn": "",
-                            "items": [
-                                {
-                                    "sgst": 1433.51,
-                                    "rt": 18,
-                                    "num": 1,
-                                    "txval": 15927.86,
-                                    "cgst": 1433.51,
-                                    "cess": 0
-                                }
-                            ]
                         }
                     ],
                     "trdnm": "V4 AGENCY",
                     "supfildt": "05-02-2022",
                     "supprd": "092021",
                     "ctin": "22AAEHV9549P1ZA"
-                },
-                {
-                    "inv": [
-                        {
-                            "dt": "08-01-2022",
-                            "val": 28633,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "pos": "22",
-                            "typ": "R",
-                            "inum": "A0005678",
-                            "rsn": "",
-                            "items": [
-                                {
-                                    "sgst": 671.25,
-                                    "rt": 5,
-                                    "num": 1,
-                                    "txval": 26850,
-                                    "cgst": 671.25,
-                                    "cess": 0
-                                }
-                            ]
-                        },
-                        {
-                            "dt": "13-01-2022",
-                            "val": 31500,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "pos": "22",
-                            "typ": "R",
-                            "inum": "A0005871",
-                            "rsn": "",
-                            "items": [
-                                {
-                                    "sgst": 750,
-                                    "rt": 5,
-                                    "num": 1,
-                                    "txval": 30000,
-                                    "cgst": 750,
-                                    "cess": 0
-                                }
-                            ]
-                        },
-                        {
-                            "dt": "31-01-2022",
-                            "val": 29597,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "pos": "22",
-                            "typ": "R",
-                            "inum": "A0006491",
-                            "rsn": "",
-                            "items": [
-                                {
-                                    "sgst": 704.7,
-                                    "rt": 5,
-                                    "num": 1,
-                                    "txval": 28188,
-                                    "cgst": 704.7,
-                                    "cess": 0
-                                }
-                            ]
-                        }
-                    ],
-                    "trdnm": "Deepa Enterprises",
-                    "supfildt": "10-02-2022",
-                    "supprd": "012022",
-                    "ctin": "22AAQFD5885Q1ZJ"
-                },
-                {
-                    "inv": [
-                        {
-                            "dt": "07-01-2022",
-                            "val": 205000,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "pos": "22",
-                            "typ": "R",
-                            "inum": "GST-5047",
-                            "rsn": "",
-                            "items": [
-                                {
-                                    "sgst": 4880.95,
-                                    "rt": 5,
-                                    "num": 1,
-                                    "txval": 195238,
-                                    "cgst": 4880.95,
-                                    "cess": 0
-                                }
-                            ]
-                        },
-                        {
-                            "dt": "10-01-2022",
-                            "val": 212000,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "pos": "22",
-                            "typ": "R",
-                            "inum": "GST-5132",
-                            "rsn": "",
-                            "items": [
-                                {
-                                    "sgst": 5047.63,
-                                    "rt": 5,
-                                    "num": 1,
-                                    "txval": 201905,
-                                    "cgst": 5047.63,
-                                    "cess": 0
-                                }
-                            ]
-                        },
-                        {
-                            "dt": "18-01-2022",
-                            "val": 112960,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "pos": "22",
-                            "typ": "R",
-                            "inum": "GST-5301",
-                            "rsn": "",
-                            "items": [
-                                {
-                                    "sgst": 2689.53,
-                                    "rt": 5,
-                                    "num": 1,
-                                    "txval": 107581,
-                                    "cgst": 2689.53,
-                                    "cess": 0
-                                }
-                            ]
-                        },
-                        {
-                            "dt": "25-01-2022",
-                            "val": 63810,
-                            "rev": "N",
-                            "itcavl": "Y",
-                            "diffprcnt": 1,
-                            "pos": "22",
-                            "typ": "R",
-                            "inum": "GST-5456",
-                            "rsn": "",
-                            "items": [
-                                {
-                                    "sgst": 1519.29,
-                                    "rt": 5,
-                                    "num": 1,
-                                    "txval": 60771.6,
-                                    "cgst": 1519.29,
-                                    "cess": 0
-                                }
-                            ]
-                        }
-                    ],
-                    "trdnm": "SOJAT OILS",
-                    "supfildt": "08-02-2022",
-                    "supprd": "012022",
-                    "ctin": "22AEQPJ5405G1ZP"
                 }
             ]
         },

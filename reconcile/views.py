@@ -15,9 +15,8 @@ def reconcile(request):
     if request.method == "POST":
         gstr2bfile = request.FILES["gstr2b-json"]
         csvfile = request.FILES["purchase-register-csv"]
-        
         json_dict, csv_dict = build_dict(gstr2bfile, csvfile)
         result = match(json_dict, csv_dict)
         return JsonResponse(result)
     else:
-        return HttpResponseNotAllowed()
+        return HttpResponseNotAllowed("POST")
