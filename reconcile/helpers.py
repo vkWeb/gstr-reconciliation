@@ -1,5 +1,6 @@
 import json
 import csv
+import math
 
 from decimal import Decimal
 from datetime import datetime
@@ -12,14 +13,14 @@ def build_dict(gstr2b_file_handler, csv_file_handler):
     for supplier in load_f["data"]["docdata"]["b2b"]:
         for inv in supplier["inv"]:
             for inv_item in inv["items"]:
-                if inv_item["rt"] > 0:
+                if Decimal(inv_item["rt"]) > 0.00:
                     if inv_item.get("igst") is not None and Decimal(inv_item["igst"]) > 0.00:
                         json_dict[str(supplier["ctin"] + inv["inum"])] = {
                             "gstin": supplier["ctin"],
                             "inv_num": inv["inum"],
                             "date": inv["dt"],
                             "taxable_value": str(inv_item["txval"]),
-                            "rate": inv_item["rt"],
+                            "rate": math.floor(Decimal(inv_item["rt"])),
                             "supply_type": "INTER",
                         }
                     else:
@@ -28,7 +29,7 @@ def build_dict(gstr2b_file_handler, csv_file_handler):
                             "inv_num": inv["inum"],
                             "date": inv["dt"],
                             "taxable_value": str(inv_item["txval"]),
-                            "rate": inv_item["rt"],
+                            "rate": math.floor(Decimal(inv_item["rt"])),
                             "supply_type": "INTRA",
                         }
 
@@ -37,7 +38,7 @@ def build_dict(gstr2b_file_handler, csv_file_handler):
     csv_dict = {}
     
     for row in load_c:
-        if int(row["Rate"]) > 0:
+        if Decimal(row["Rate"]) > 0.00:
             inv_date_obj = datetime.strptime(row["Invoice date"], "%d-%b-%Y").date()
             inv_date_fstr = inv_date_obj.strftime("%d-%m-%Y")
             
@@ -47,7 +48,7 @@ def build_dict(gstr2b_file_handler, csv_file_handler):
                     "inv_num": row["Invoice Number"],
                     "date": inv_date_fstr,
                     "taxable_value": str(row["Taxable Value"]),
-                    "rate": int(row["Rate"]),
+                    "rate": math.floor(Decimal(row["Rate"])),
                     "supply_type": "INTRA",
                 }
             else:
@@ -56,7 +57,7 @@ def build_dict(gstr2b_file_handler, csv_file_handler):
                     "inv_num": row["Invoice Number"],
                     "date": inv_date_fstr,
                     "taxable_value": str(row["Taxable Value"]),
-                    "rate": int(row["Rate"]),
+                    "rate": math.floor(Decimal(row["Rate"])),
                     "supply_type": "INTER",
                 }
 
